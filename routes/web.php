@@ -18,5 +18,5 @@ Route::get('/', function () {
 
 
 
-    Route::get('/products',[PaginationController::class,'allProducts']);
+    Route::get('/add',[AdminController::class,'Add']);
 });
